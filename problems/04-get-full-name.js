@@ -1,5 +1,5 @@
 /***********************************************************************
-Write a function `getFullName(person)` that takes in an person object
+Write a function `getFullName(person)` that takes in a person object
 and returns a string containing their full name.
 
 
@@ -12,6 +12,7 @@ getFullName(p2); // => 'Charlie Brown'
 
 function getFullName(person) {
   // Your code here
+  return person.firstName + ' ' + person.lastName
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
